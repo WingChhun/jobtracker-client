@@ -1,0 +1,41 @@
+
+
+//Note: Abstracts
+@import "./abstracts//variables.scss";
+@import "./abstracts//palette.scss";
+@import "./abstracts//media_queries.scss";
+@import "./abstracts//mixins.scss";
+
+
+//Note: Component scss
+@import "./utilities//utility.scss";
+//Note: Pages scss
+
+
+*::before,
+*::after,
+html {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+
+    //TODO: Add Media queries to scale (rem-units downt o match .1rem = 10px scaling
+}
+
+//TODO: Typography add
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+  
+
+    font-family: 'Oswald', 'Montserrat', 'Raleway', 'sans-serif';
+  }
+  
+  p {
+    font-family: 'Raleway', 'Roboto', 'sans-serif';
+  }
+  
+  a {
+    text-decoration: none;
+  }
