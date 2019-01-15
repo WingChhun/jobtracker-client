@@ -1,0 +1,18 @@
+*::before,
+*::after,
+html {
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box; }
+
+body {
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+  font-family: 'Oswald', 'Montserrat', 'Raleway', 'sans-serif'; }
+
+p {
+  font-family: 'Raleway', 'Roboto', 'sans-serif'; }
+
+a {
+  text-decoration: none; }
