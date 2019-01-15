@@ -1,0 +1,15 @@
+language: node_js
+node_js: node
+cache:
+  directories:
+  - node_modules
+env:
+- CI=true
+deploy:
+  provider: heroku
+  
+  api_key:
+    secure: FtEcL7RIn4sfXP2Yz4JE8CJ4y9gWmBsA15SOfytctZxba9yBFd0/5XOvo/+DJKToaV77xhQXv34DDwGP6nm2RVZ5f6Ek9l7j3G1eW4JbXGqGqcoTOKwlG+yiPK90ExPW/PhcgF0/2hcEEY6JTVyhNfQLRUs74DzpFb5/zIH3VwTLYFwD3tYsqp+ci1l8AYb/qcMqjO3SbFdDIiOlsshVyt4oTEZGmGG3VkJvdpzRU/bunzN//pDLG/nRR/JnK5HGoC+/CJYYSHq8TyMDF91lGeGhwSxnhZu+vSmmu1+YpmaFN0d+y1/psjL8coK010BJyVBni/6B3AvqRheEveZKjhHY+GIhcTUdckYGFgeoouWSnNrwaQG98AfWq2D/evS+VVpAMkuRFfXeV37LI5i9aylJYBaKoFnKOw1Z2ChyBhMxFI6/LAPvaXg3a0OeM7Zewicm0f1VKmIOeKhklonUj392yT9/Ih+X6U7oE9OtgtNzJ/F4siNbSYUK9HZ+U/o1YHkoAa5aN5l7E8cuHIrRbnZDCYNQHEuMlEB4KPH9b/ZfxnioL0QQe72HKziFlaQXA39zGYhfYJLCoHGl0lGIZvaw5C1Wa20v9vHxhAazJsfY7LJMSdqozVVQ9+/hdqApSr5Deus31NUYfTfmajKpvkZXQ69kRlh9DXvHunISHYc=
+    app:whispering-basin-94870
+  on:
+    repo: WingChhun/jobtracker-client
