@@ -8,6 +8,10 @@
 
 To install and run this client, cd into the project directory and run 'npm install' (or 'sudo npm install' depending on your environment settings).
 
+* To run this for development run
+*  `npm run start-js`
+* this wqill run `npm-run-all` with `react-scripts start` and `watch-css` script that starts node-sass-chokidar watcher
+
 ## Technology Used 
 
 * HTML5
